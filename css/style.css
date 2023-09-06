@@ -445,4 +445,8 @@ footer .list-item .form input[type="submit"] {
   .selling .card-wrapper .card {
     width: 90%;
   }
+  footer .list-item .form {
+
+  width: 250px;
+}
 }
