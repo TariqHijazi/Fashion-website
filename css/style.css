@@ -357,6 +357,7 @@ footer .list-item .icons a {
 }
 footer .list-item .title {
   color: #fff;
+  margin-top: 20px;
   font-family: Roboto-Medium;
   font-size: 22px;
   text-transform: uppercase;
