@@ -391,6 +391,8 @@ footer .list-item .form input[type="email"] {
   border: 0;
   width: 70%;
   padding: 14px 28px;
+  font-size: 20px;
+  color: #fff;
 }
 footer .list-item .form input[type="submit"] {
     background: #A3F3BE;
