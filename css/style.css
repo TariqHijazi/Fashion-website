@@ -248,7 +248,7 @@ header .bars {
 .designer .card-wrapper {
   display: flex;
   justify-content: center;
-  gap: 2%;
+  gap: 3%;
   align-items: center;
 }
 .designer .card-wrapper .card {
@@ -267,6 +267,7 @@ header .bars {
   color: #373737;
   font-family: Poppins-Medium;
   line-height: 143%;
+  padding: 0px;
 }
 /* end designer */
 
@@ -290,11 +291,13 @@ header .bars {
 }
 .feedback .list .item-list {
   background-color: #fff;
-  padding: 12px;
+  padding: 26px 16px;
+  min-height: 253px;
   text-align: left;
   width: 32.5%;
   min-width: 350px;
   margin-top: 20px;
+  height: 100%;
   box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .feedback .list .item-list span {
