@@ -39,19 +39,18 @@ ul {
 img {
   max-width: 100%;
 }
-.background1{
-    background-color:#93B9A2 ;
+.background1 {
+  background-color: #93b9a2;
 }
-.background2{
-    background-color:#A9D4BA ;
+.background2 {
+  background-color: #a9d4ba;
 }
-.background3{
-    background-color:#DDECE2 !important ;
+.background3 {
+  background-color: #ddece2 !important ;
 }
-.background4{
-    background-color:#C2EFD4 !important ;
+.background4 {
+  background-color: #c2efd4 !important ;
 }
-
 
 .hero-section {
   background-color: var(--secondary-color);
@@ -117,7 +116,7 @@ header .bars {
   width: 100%;
 }
 .hero .hero-content h1 {
-  color:var(--main-color);
+  color: var(--main-color);
   font-family: Rufina-bold;
   font-size: 86px;
 }
@@ -317,6 +316,7 @@ header .bars {
   margin-top: 30px;
 }
 /* end feedback */
+
 /* start footer */
 footer {
   background-color: var(--main-color);
@@ -375,8 +375,8 @@ footer .list-item li {
   margin-top: 20px;
 }
 footer .list-item .form {
-    border-radius: 3px;
-    border: 2px solid #A3F3BE;
+  border-radius: 3px;
+  border: 2px solid #a3f3be;
   width: 450px;
   display: flex;
   justify-content: space-between;
@@ -385,10 +385,9 @@ footer .list-item .form {
 footer .list-item .form input {
   height: 60px;
 }
-footer .list-item .form input[type="email"]::placeholder{
-font-family: Poppins-Medium;
-font-size: 18px;
-
+footer .list-item .form input[type="email"]::placeholder {
+  font-family: Poppins-Medium;
+  font-size: 18px;
 }
 footer .list-item .form input[type="email"] {
   background-color: transparent;
@@ -399,12 +398,13 @@ footer .list-item .form input[type="email"] {
   color: #fff;
 }
 footer .list-item .form input[type="submit"] {
-    background: #A3F3BE;
-    color: var(--main-color);
-    font-family: Poppins-Medium;
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 14px 21px;
+  background: #a3f3be;
+  color: var(--main-color);
+  font-family: Poppins-Medium;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  padding: 14px 21px;
 }
 /* end footer */
 @media only screen and (max-width: 920px) {
@@ -446,7 +446,6 @@ footer .list-item .form input[type="submit"] {
     width: 90%;
   }
   footer .list-item .form {
-
-  width: 250px;
-}
+    width: 250px;
+  }
 }
